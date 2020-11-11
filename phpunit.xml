@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit colors="true" verbose="true" bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="hello_world">
+            <directory>
+                tests/hello_world
+            </directory>
+        </testsuite>
+        <testsuite name="main">
+            <directory>
+                tests/main
+            </directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
